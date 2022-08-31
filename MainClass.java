@@ -3,15 +3,16 @@ package com.bridgelabz_genrics;
 public class MainClass {
     public static void main(String[] args) {
 
-        MaxValue intMax = new MaxValue();
+        MaxFloat maxFloat  = new MaxFloat();
         System.out.println("Test case 1");
-        intMax.maxValue(1,3,5);
+        maxFloat.maxValue(2.8F,4.4F,33.2F);
         System.out.println("Test case 2");
-        intMax.maxValue(2,4,6);
+        maxFloat.maxValue(62.5F,77.6F,88.8F);
         System.out.println("Test case 3");
-        intMax.maxValue(9,10,11);
+        maxFloat.maxValue(99.9F,55.6F,8.3F);
     }
 }
+
 
 
 
