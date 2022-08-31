@@ -1,6 +1,6 @@
 package com.bridgelabz_genrics;
 
-public class MainClass(3) {
+public class MainClass {
     public static void main(String[] args) {
 
         MaxString maxString  = new MaxString();
